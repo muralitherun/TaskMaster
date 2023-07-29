@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
-const DB_PASSWORD = process.env.SERVER_PASSWORD;
+const DB_PASSWORD = process.env.DB_PASSWORD;
 
 const dbURI = 'mongodb+srv://muralitherun:DB_PASSWORD@baz.7o65rrp.mongodb.net/?retryWrites=true&w=majority'; // Replace with your MongoDB connection URI
 
